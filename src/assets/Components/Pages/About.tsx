@@ -58,6 +58,8 @@ const About =()=>{
                     <p className="text-xl px-40">JOHNKAY CONSULTANT is an entity that carries out all digital services that you can mention of, also we teaches how to learn and earn cac registration.</p>
                   </div>
 
+                         {/* stats section */}
+                         
 
                 </div>
 
