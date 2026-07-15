@@ -41,12 +41,10 @@ const About =()=>{
         <div className="min-h-screen bg-blue-900">
           <Header/>
           {/* background partern */}
-       {/* <div className="absolute inset-0 opacity-10">
+       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 rounded-full bg-green-600"/>
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-pink-900 rounded-full"/>
-
-
-       </div> */}
+        </div>
 
                  {/* hero section */}
 
@@ -59,7 +57,19 @@ const About =()=>{
                   </div>
 
                          {/* stats section */}
-                         
+                         <section className="py-20 bg-yellow-300">
+                          <div className="section for stats">
+                            <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
+                              {Stat.map((Stat,value)=>(
+                                <div key={value} className="text-center">
+                              <div className="text-xl md:text-2xl font-bold mb-2">{Stat.label}
+                                </div>
+                            </div>
+                              ))}
+                            </div>
+                          </div>
+
+                         </section>
 
                 </div>
 
