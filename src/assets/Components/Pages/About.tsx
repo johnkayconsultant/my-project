@@ -120,7 +120,17 @@ Driven by integrity, professionalism, and customer satisfaction, Johnkay Consult
                          </div>
                       </section>
 
-                    CTA 
+                    {/* CTA section */}
+                    <section className="py-18 bg-brown-300">
+                      <div className="text-center font-bold text-4xl md:5xl text-white">
+                        <h1>Let Work Together</h1>
+                        <p>Working with us will be a best idea and a good innovation, quality job will be delivered by <b>JOHNKAY CONSULTANT</b></p>
+                        <Link to="/services">
+                        <button className="py-3 bg-yellow-300 hover:cursor rounded-full w-40 h-20">services</button>
+                        </Link>
+                      </div>
+
+                    </section>
                 </div>
 
               </section>
