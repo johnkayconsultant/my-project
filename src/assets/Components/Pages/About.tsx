@@ -1,5 +1,5 @@
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+// import Footer from "@/components/Footer";
 // import button from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Users,Shield, TrendingUp, Target } from 'lucide-react';
@@ -48,7 +48,7 @@ const About =()=>{
 
                  {/* hero section */}
 
-              <section className="pt-16 bg-green-600">
+              <section className="pt-25 bg-green-600">
                 <div className="section hero">
                   <div className="text-center max-w-auto mx-auto">
                     <span className="text-white rounded-full text-2xl font bold m-6">ABOUT US</span>
@@ -134,7 +134,7 @@ Driven by integrity, professionalism, and customer satisfaction, Johnkay Consult
                 </div>
 
               </section>
-              <Footer/>
+              {/* <Footer/> */}
         </div>
 
       

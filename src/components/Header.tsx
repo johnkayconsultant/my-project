@@ -13,7 +13,7 @@ const Header=()=>{
                  {label:"Services", href:"/services"},
                  {label:"Contact", href:"/contact"},
                  {label:"About", href:"/about"},
-                 {label:"Notfound", href:"*"},
+                //  {label:"Notfound", href:"*"},
                 ];
             const isActive = (href:string)=>{
                 if (href==="/") return location.pathname==="/";
